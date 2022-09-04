@@ -1,0 +1,3 @@
+{X: {Sagawa: 3, USPS: 2, Yamato: 4}, Y: {USPS: 7}}
+
+7
