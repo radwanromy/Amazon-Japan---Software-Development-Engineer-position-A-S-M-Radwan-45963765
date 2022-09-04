@@ -1,0 +1,30 @@
+/*Amazon contract with multiple delivery courier such as Sagawa, Yamato, DHL, USPS to deliver items to customer's house.
+Each courier will have different capacity for delivery, so delivery date for same item can differ. For example, item A 
+can be delivered tomorrow by Sagawa, while will be 2 days later by Yamato.
+We want to offer best delivery for customers, so we need to choose best delivery courier for each item customer orders. 
+
+Q: Given list of ordered items and delivery speed by each courier, find earlest date to complite all delivery.
+
+For example, let's say customer orders item X, Y, Z. Each courier can deliver the items at following speed. 
+
+* item X
+    * courier A - 1 day ~
+    * courier B - 2 day ~
+    * courier C - 1 day ~
+* item Y
+    * courier A - 2 day ~
+    * courier B - 2 day ~
+    * courier C - 3 day ~
+* item Z 
+    * courier A - 3 day ~
+    * courier B - 3 day ~
+    * courier C - 2 day ~
+
+Then, earliest date to complete is 2 days, as we can ask delivery as follows
+  - item X to courier A -> deliver in 1 day
+  - item Y to courier A -> deliver in 2 days
+  - item Z to courier C -> delivered in 2 days
+  
+
+  
+  */
